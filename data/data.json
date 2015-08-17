@@ -1,0 +1,17 @@
+{
+	"response": {
+		"nav": {
+			"links":
+				[
+					{"title":"videos", "val":"videos","href":"#videos"},
+					{"title":"photos", "val":"photos","href":"#photos"},
+					{"title":"tour", "val":"tour","href":"#tour"},
+					{"title":"resume", "val":"resume","href":"#resume"},
+					{"title":"twitter", "val":"<i class=\"fa fa-twitter\">","href":"http://www.twitter.com/matthires"},
+					{"title":"facebook", "val":"<i class=\"fa fa-facebook\">","href":"http://www.facebook.com/matthires"},
+					{"title":"apple", "val":"<i class=\"fa fa-apple\">","href":"http://www.itunes.com/matthires"},
+					{"title":"instagram", "val":"<i class=\"fa fa-instagram\">","href":"http://www.instagram.com/matthires"}
+				]
+		}
+	}
+}
