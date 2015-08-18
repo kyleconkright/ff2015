@@ -31,134 +31,45 @@ body, html {
 
 body {
 	color: $dark;
-	background: $white;
-}
-
-div.border {
-	background: $gradient;
-	height: 4px;
-	position: absolute;
-	width: 100%;
-	top: 0;
-	z-index: 9999;
+	// background: url("../../assets/img/FanasyFooball.jpg");
 }
 
 #container {
 	min-height: 100%;
-	display: flex;
 	max-width: 1440px;
-	#left, #right {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-	}
-	#left {
-		background: $dark url('../../assets/img/bg.jpg') center no-repeat;
-		background-size: cover;
-		flex: .4;
-		color: $white;
-		text-align: center;
-		h2 {
-			font-size: 1.5em;
-			font-weight: 400;
-		}
-		img {
-			width: 60%;
-			margin: -32px auto;
-			display: block;
-			border-radius: 1000px;
-			opacity: 0;
-		}
-		ul.nav {
-			li {
-				display: block;
-				margin: $margin*1.5 0;
-				a {
-					padding: $margin/2 $margin/1.5;
-					margin: 0 $margin/2;
-					border-radius: 1px;
-					transition: padding .25s;
-					&:hover {
-						border: solid rgba(255,255,255,.25);
-						border-width: 0 0 $margin/4 0;
-						padding: $margin/2 $margin/1.5 $margin/4;
-					}
-				}
-				a.gmail {
-					background: #DB4B39;
-				}
-				a.twitter {
-					background: #59ADEB;
-				}
-				a.instagram {
-					background: #265479;
-				}
-				a.linkedin {
-					background: #0074B2;
-				}
-				a.github {
-					background: #333333;
-				}
-			}
-		}
-	}
-	#right {
-		flex: 1;
-		#bio {
-			width: 80%;
-			margin: 0 auto;
-			margin-top: -$margin*2;
-			opacity: 0;
-			h1 {
-				font-size: 3em;
-				line-height: 1.25em;
-				font-weight: 400;
-				background: linear-gradient(to right,#2989d8 0,#22ad3c 33%,#7ece29 66%,#7db9e8 100%);
-				-webkit-background-clip: text;
-				-webkit-text-fill-color: transparent;
-			}
-			p {
-
-			}
-			.mobile-check:after {
-				content: 'to the left';
-			}
-		}
-	}
+	display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-justify-content: center;
+  -webkit-height: 100vh;
+  -webkit-text-align: center;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: nowrap;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: inherit;;
+  text-align: center;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
 }
 
+.players img {
+	width: 75%;
+	border: solid black;
+}
 
-@media only screen
-and (max-width : 768px)
-and (orientation: portrait) {
-	#container {
-		flex-direction: column;
-		#left, #right {
-
-		}
-		#left {
-			padding: $margin 0;
-			img {
-				width: 30%;
-			}
-			ul.nav {
-				margin: $margin 0;
-				li {
-					display: inline-block;
-					margin: $margin 0;
-				}
-			}
-		}
-		#right {
-			background-size: contain;
-			justify-content: flex-start;
-			padding: $margin*1.5 0;
-			flex: 2;
-			#bio {
-				.mobile-check:after {
-					content: 'above';
-				}
-			}
-		}
-	}
+li {
+	display: inline;
+	padding: 1vw;
+	font-size: 1.5vw;
+}
+.leftFootball {
+	position: fixed;
+	left: 2px;
+	top: 0;
+}
+.rightFootball {
+	position: fixed;
+	top: 0;
 }
