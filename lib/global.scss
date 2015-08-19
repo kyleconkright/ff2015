@@ -31,7 +31,6 @@ body, html {
 
 body {
 	color: $dark;
-	// background: url("../../assets/img/FanasyFooball.jpg");
 }
 
 #container {
@@ -75,25 +74,13 @@ body {
 
 .profile img {
 	width: 25%;
-	padding: 10px;
+	padding-left: 25px;
 	filter: grayscale(100%);
 	-webkit-filter: grayscale(100%);
 }
-
-li {
-	display: inline;
-	padding: 1vw;
-	font-size: 1.5vw;
-}
-.leftFootball {
-	position: fixed;
-	left: 9px;
-	top: 0;
-}
-.rightFootball {
-	position: fixed;
-	top: 0;
-	left: 0;
+.top {
+	width: 100%;
+	text-align: center;
 }
 .header {
 	cursor: pointer;
