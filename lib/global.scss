@@ -47,16 +47,33 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: inherit;;
+  height: inherit;
   text-align: center;
   flex-wrap: nowrap;
   align-content: center;
   align-items: center;
 }
-
-.players img {
+.players {
 	width: 75%;
+	height: auto;
+}
+.players img {
+	width: 100%;
 	border: solid black;
+}
+
+.profile {
+	width: 75%;
+	text-align: left;
+	display: none;
+	margin: 0 auto;
+	border: solid black;
+	height: 100%;
+}
+
+.profile img {
+	width: 25%;
+	padding: 10px;
 }
 
 li {
@@ -66,10 +83,15 @@ li {
 }
 .leftFootball {
 	position: fixed;
-	left: 2px;
+	left: 9px;
 	top: 0;
 }
 .rightFootball {
 	position: fixed;
 	top: 0;
+	left: 0;
+}
+.header {
+	cursor: pointer;
+	// height: 50px;
 }

@@ -8,62 +8,82 @@
 </head>
 
 <body>
-
-  <div id="container">
-    <div class="header">
-      <div class="leftFootball">
-        >
-      </div>
-      <div class="rightFootball" style="display:none;">
-        <
-          <li>
-            1. Mark
-          </li>
-          <li>
-            2. Tom
-          </li>
-          <li>
-            3. Eric
-          </li>
-          <li>
-            4. Yo
-          </li>
-          <li>
-            5. Matt
-          </li>
-          <li>
-            6. Brian
-          </li>
-          <li>
-            7. Chris
-          </li>
-          <li>
-            8. Kyle C.
-          </li>
-          <li>
-            9. Chase
-          </li>
-          <li>
-            10. Vince
-          </li>
-          <li>
-            11. Kyle H.
-          </li>
-          <li>
-            12. Akira
-          </li>
-      </div>
+  <div class="header">
+    <div class="leftFootball">
+      >
     </div>
+    <div class="rightFootball" style="display:none;">
+      < <li>
+        1. Mark
+        </li>
+        <li>
+          2. Tom
+        </li>
+        <li>
+          3. Eric
+        </li>
+        <li>
+          4. Yo
+        </li>
+        <li>
+          5. Matt
+        </li>
+        <li>
+          6. Brian
+        </li>
+        <li>
+          7. Chris
+        </li>
+        <li>
+          8. Kyle C.
+        </li>
+        <li>
+          9. Chase
+        </li>
+        <li>
+          10. Vince
+        </li>
+        <li>
+          11. Kyle H.
+        </li>
+        <li>
+          12. Akira
+        </li>
+    </div>
+  </div>
+  <div id="container">
     <div class="players">
       <br>
-      <img src="assets/img/FanasyFooball.jpg">
+        <img src="assets/img/FanasyFooball.jpg" usemap="#fanasyfooball">
+        <map name="fanasyfooball">
+          <area class="akira" shape="circle" coords="50,513,20" href="#profile">
+          <area class="kylec" shape="circle" coords="257,581,21" href="#profile">
+          <area class="brian" shape="circle" coords="355,516,19" href="#profile">
+          <area class="kyleh" shape="circle" coords="402,562,21" href="#profile">
+          <area class="yo" shape="circle" coords="543,588,20" href="#profile">
+          <area class="chris" shape="circle" coords="655,578,21" href="#profile">
+          <area class="sign" shape="rect" coords="609,327,644,372" href="#profile">
+          <area class="vince" shape="circle" coords="566,497,19" href="#profile">
+          <area class="mark" shape="circle" coords="745,484,19" href="#profile">
+          <area class="tom" shape="circle" coords="878,473,19" href="#profile">
+          <area class="matt" shape="circle" coords="876,561,21" href="#profile">
+          <area class="eric" shape="circle" coords="999,556,20" href="#profile">
+          <area class="chase" shape="circle" coords="1125,562,20" href="#profile">
+        </map>
     </div>
+
+  </div>
+  <div class="profile">
 
   </div>
   <!--#container-->
 
   <script src="build/js/vendor.min.js"></script>
   <script src="build/js/script.min.js"></script>
+  <script src="lib/jquery.rwdImageMaps.min.js"></script>
+  <script>
+    $('map').imageMapResize();
+  </script>
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
