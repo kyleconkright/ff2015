@@ -74,6 +74,8 @@ body {
 .profile img {
 	width: 25%;
 	padding: 10px;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
 }
 
 li {
