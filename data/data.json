@@ -1,17 +1,20 @@
 {
 	"response": {
-		"nav": {
-			"links":
+		"profile":
 				[
-					{"title":"videos", "val":"videos","href":"#videos"},
-					{"title":"photos", "val":"photos","href":"#photos"},
-					{"title":"tour", "val":"tour","href":"#tour"},
-					{"title":"resume", "val":"resume","href":"#resume"},
-					{"title":"twitter", "val":"<i class=\"fa fa-twitter\">","href":"http://www.twitter.com/matthires"},
-					{"title":"facebook", "val":"<i class=\"fa fa-facebook\">","href":"http://www.facebook.com/matthires"},
-					{"title":"apple", "val":"<i class=\"fa fa-apple\">","href":"http://www.itunes.com/matthires"},
-					{"title":"instagram", "val":"<i class=\"fa fa-instagram\">","href":"http://www.instagram.com/matthires"}
+					{"name":"Akira Kuga", "val":"akira","team":"undecided", "photo":"assets/img/akira.jpg"},
+					{"name":"Chris Garvin", "val":"chris","team":"undecided", "photo":"assets/img/chris.jpg"},
+					{"name":"Kyle Conkright", "val":"kylec","team":"Chilean 40 Miners", "photo":"assets/img/kylec.jpg"},
+					{"name":"Eric Taylor", "val":"eric","team":"undecided", "photo":"assets/img/eric.jpg"},
+					{"name":"Matt Hires", "val":"matt","team":"The Ticklebears", "photo":"assets/img/matt.jpg"},
+					{"name":"Vince Tunzi", "val":"vince","team":"undecided", "photo":"assets/img/vince.jpg"},
+					{"name":"Kyle Hurts", "val":"kyleh","team":"undecided", "photo":"assets/img/kyleh.jpg"},
+					{"name":"Yo Wakita", "val":"yo","team":"undecided", "photo":"assets/img/yo.jpg"},
+					{"name":"Tom Craskey", "val":"tom","team":"Team Craskey", "photo":"assets/img/tom.jpg"},
+					{"name":"Chase Spenst", "val":"chase","team":"Harbaughcalypse Now", "photo":"assets/img/chase.jpg"},
+					{"name":"Mark Skelly", "val":"mark","team":"Unlucky Charms", "photo":"assets/img/mark.jpg"},
+					{"name":"Brian Mounmanivong", "val":"brian","team":"undecided", "photo":"assets/img/brian.jpg"}
 				]
-		}
+
 	}
 }

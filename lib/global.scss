@@ -35,7 +35,6 @@ body {
 
 #container {
 	min-height: 100%;
-	max-width: 1440px;
 	display: -webkit-flex;
   -webkit-flex-direction: column;
   -webkit-justify-content: center;
@@ -72,11 +71,28 @@ body {
 	height: 100%;
 }
 
-.profile img {
-	width: 25%;
+.profileImage img {
+	width: 100%;
 	padding-left: 25px;
 	filter: grayscale(100%);
 	-webkit-filter: grayscale(100%);
+}
+
+.profileImage {
+	padding-top: 10px;
+	width: 33%;
+	height: 100%;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.profileInfo {
+	padding-top: 10px;
+	width: 66%;
+	height: 100%;
+	display: inline-block;
+	float: right;
+	text-align: center;
 }
 .top {
 	width: 100%;
